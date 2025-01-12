@@ -1,4 +1,10 @@
 streamlit
 pandas
-scikit-learn
+sklearn.preprocessing
+sklearn.metrics
+sklearn.model_selection
+sklearn.neighbors
+sklearn.tree
+sklearn.ensemble
+matplotlib.pyplot
 scipy
