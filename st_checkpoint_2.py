@@ -1,17 +1,10 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
-from  ydata_profiling import ProfileReport
-from plotly.subplots import make_subplots
-import plotly.graph_objects as go
-import seaborn as sns 
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import ConfusionMatrixDisplay, classification_report, accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
 from scipy import stats
-import plotly.express as px
 from sklearn.model_selection import train_test_split, GridSearchCV
-
 from sklearn.neighbors import KNeighborsClassifier 
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
