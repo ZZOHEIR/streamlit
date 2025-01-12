@@ -10,7 +10,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 def app_checkpoint_2():
  st.write('##Financial Inclusion Stramlit Checkpoint II')
- df = pd.read_csv(r'https://github.com/ZZOHEIR/streamlit/blob/a43c023a2f2357f4b0aaa4989eaefb8a91b33e5f/Financial_inclusion_dataset.csv')
+ df = pd.read_csv(r'Financial_inclusion_dataset.csv')
  st.write(df.head())
 
  le = LabelEncoder()
